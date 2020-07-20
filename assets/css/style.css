@@ -375,9 +375,6 @@ Media Queries
     .hero-container-desktop {
         display: none;
     }
-    section {
-        padding-top: 15px;
-    }
     #hero {
         padding-top: 60px;
     }
@@ -405,9 +402,6 @@ Media Queries
     /*//////////// hero ////////////*/
     .hero-container-desktop {
         display: none;
-    }
-    section {
-        padding-top: 15px;
     }
     #hero {
         padding-top: 60px;
