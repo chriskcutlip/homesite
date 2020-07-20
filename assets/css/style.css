@@ -369,9 +369,18 @@ Media Queries
 ////////////////////////////////////////*/
 
 @media (max-width: 575.98px) { 
+    .topmargin-lg {
+        margin-top: 30px !important; 
+    }
     /*//////////// hero ////////////*/
     .hero-container-desktop {
         display: none;
+    }
+    section {
+        padding-top: 15px;
+    }
+    #hero {
+        padding-top: 60px;
     }
     /*//////////// properties ////////////*/
     .property-title h3 {
@@ -391,9 +400,18 @@ Media Queries
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
+    .topmargin-lg {
+        margin-top: 30px !important; 
+    }
     /*//////////// hero ////////////*/
     .hero-container-desktop {
         display: none;
+    }
+    section {
+        padding-top: 15px;
+    }
+    #hero {
+        padding-top: 60px;
     }
     /*//////////// properties ////////////*/
     .property-title-sm h3 {
@@ -454,6 +472,10 @@ Media Queries
     }
 }
 
-.container-fluid {
-    padding: 0px;
+#hero .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
