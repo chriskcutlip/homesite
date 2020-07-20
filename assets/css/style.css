@@ -182,8 +182,14 @@ Hero
     margin-top: 10px;
 }
 
-.hero-details-mobile {
+.hero-details-mobile, .hero-details-mobile a {
     color: #222729;
+}
+
+.hero-details-mobile a:hover {
+    color: #222729;
+    text-decoration: none;
+    opacity: .9;
 }
 
 .hero-details-mobile h1 {
