@@ -69,7 +69,6 @@ section p {
     border: 2px solid #ffffff;
     padding: 15px 40px;
     display: inline-block;
-    margin-top: 20px;
 }
 
 .primary-btn:hover {
@@ -436,6 +435,9 @@ Media Queries
     }
     .hero-details p {
         font-size: 14px;
+    }
+    #hero .primary-btn {
+        display: none;
     }
     /*//////////// properties ////////////*/
     .property-title h3 {
